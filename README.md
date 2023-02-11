@@ -6,6 +6,6 @@ Python auto suggestion ide plugin installer for neovim...👽🦚..
 # Installation
 
 ```
-curl -sSL https://raw.githubusercontent.com/Anon4You/NvimPythonIde/main/plugInstall | bash
+curl -sSL https://raw.githubusercontent.com/Anon4You/NvimPythonIde/main/InstallPlugin | bash
 ```
 
