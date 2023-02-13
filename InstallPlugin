@@ -1,8 +1,8 @@
 #!/bin/bash
 echo $'\e[32;1m'"---installing upgrade"$'\e[0m'
 apt update && apt upgrade -y
-echo $'\e[32;1m'"---installing neovim nodejs wget "$'\e[0m'
-apt install wget neovim nodejs -y
+echo $'\e[32;1m'"---installing git neovim nodejs wget "$'\e[0m'
+apt install wget neovim git nodejs -y
 echo $'\e[32;1m'"---Downloading plugin "$'\e[0m'
 mkdir -p .config/nvim > /dev/null 2>&1
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
